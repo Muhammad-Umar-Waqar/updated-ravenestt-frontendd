@@ -1,7 +1,7 @@
 // API Configuration
 const isProduction = import.meta.env.PROD;
 const BACKEND_URL = isProduction 
-  ? 'https://ravenest-api.onrender.com'  // Your Render backend URL
+  ? 'https://backend-ravenest-production.up.railway.app'  // Your Render backend URL
   : '';  // Empty in development because we're using Vite's proxy
 
 export const API_CONFIG = {
